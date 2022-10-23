@@ -3,6 +3,8 @@
   "contentVersion": "1.0.0.0",
   "variables": {
     "location": "[resourceGroup().location]",
+    "_artifactsLocationSasToken": "[deployment().properties.templateLink.uri]",
+    "_artifactsLocationSasToken": "",
     "virtualMachineName": "strapi",
     "adminUsername": "strapiadmin",
     "adminPasswordOrKey": "$tr@p!@12345",
@@ -227,7 +229,7 @@
         "autoUpgradeMinorVersion": true,
         "settings": {
           "fileUris": [
-            "[uri(parameters('_artifactsLocation'), concat('scripts/install-on-vm.sh', parameters('_artifactsLocationSasToken')))]"
+            "[uri(variables('_artifactsLocation'), concat('scripts/install-on-vm.sh', variables('_artifactsLocationSasToken')))]"
           ],
           "commandToExecute": "sh install-on-vm.sh"
         }
