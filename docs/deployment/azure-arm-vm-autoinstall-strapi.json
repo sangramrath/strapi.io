@@ -3,7 +3,7 @@
   "contentVersion": "1.0.0.0",
   "variables": {
     "location": "[resourceGroup().location]",
-    "_artifactsLocationSasToken": "[deployment().properties.templateLink.uri]",
+    "_artifactsLocation": "[deployment().properties.templateLink.uri]",
     "_artifactsLocationSasToken": "",
     "virtualMachineName": "strapi",
     "adminUsername": "strapiadmin",
