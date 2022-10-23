@@ -18,7 +18,7 @@
     "subnetAddressPrefix": "10.1.0.0/24",
     "addressPrefix": "10.1.0.0/16",
     "authenticationType": "password",
-	  "customData": "IyEvYmluL2Jhc2gKYXB0IHVwZGF0ZSAmJiBhcHQgdXBncmFkZSAteQphcHQgaW5zdGFsbCBsaWJwbmctZGV2IGJ1aWxkLWVzc2VudGlhbCAteQpjdXJsIC1mc1NMIGh0dHBzOi8vZGViLm5vZGVzb3VyY2UuY29tL3NldHVwXzE0LnggfCBiYXNoIC0gJiYgYXB0LWdldCBpbnN0YWxsIC15IG5vZGVqcwpjdXJsIC1zUyBodHRwczovL2RsLnlhcm5wa2cuY29tL2RlYmlhbi9wdWJrZXkuZ3BnIHwgYXB0LWtleSBhZGQgLQplY2hvICJkZWIgaHR0cHM6Ly9kbC55YXJucGtnLmNvbS9kZWJpYW4vIHN0YWJsZSBtYWluIiB8IHRlZSAvZXRjL2FwdC9zb3VyY2VzLmxpc3QuZC95YXJuLmxpc3QgCmFwdCB1cGRhdGUgJiYgYXB0IGluc3RhbGwgeWFybiAteQpub2RlIC12ICYmIG5wbSAtdiAmJiB5YXJuIC12CmFkZHVzZXIgLS1zaGVsbCAvYmluL2Jhc2ggLS1kaXNhYmxlZC1sb2dpbiAtLWdlY29zICIiIC0tcXVpZXQgc3RyYXBpCm1rZGlyIC9zcnYvc3RyYXBpCmFwdC1rZXkgYWR2IC0tZmV0Y2gta2V5cyAnaHR0cHM6Ly9tYXJpYWRiLm9yZy9tYXJpYWRiX3JlbGVhc2Vfc2lnbmluZ19rZXkuYXNjJwphZGQtYXB0LXJlcG9zaXRvcnkgJ2RlYiBbYXJjaD1hbWQ2NCxhcm02NCxwcGM2NGVsXSBodHRwOi8vc2ZvMS5taXJyb3JzLmRpZ2l0YWxvY2Vhbi5jb20vbWFyaWFkYi9yZXBvLzEwLjQvdWJ1bnR1IGJpb25pYyBtYWluJwphcHQgdXBkYXRlICYmIGFwdCBpbnN0YWxsIG1hcmlhZGItc2VydmVyLTEwLjQgLXkKbXlzcWwgLXUgcm9vdCAtZSAiY3JlYXRlIGRhdGFiYXNlIHN0cmFwaV9kZXY7IgpteXNxbCAtdSByb290IC1lICJjcmVhdGUgdXNlciBzdHJhcGlAbG9jYWxob3N0IGlkZW50aWZpZWQgYnkgJ215c2VjdXJlcGFzc3dvcmQnOyIKbXlzcWwgLXUgcm9vdCAtZSAiZ3JhbnQgYWxsIHByaXZpbGVnZXMgb24gc3RyYXBpX2Rldi4qIHRvIHN0cmFwaUBsb2NhbGhvc3Q7IgpteXNxbCAtdSByb290IC1lICJGTFVTSCBQUklWSUxFR0VTOyIKY2hvd24gLVIgc3RyYXBpOnN0cmFwaSAvc3J2L3N0cmFwaQpzdSBzdHJhcGkKY2QgL3Nydi9zdHJhcGkvCnlhcm4gY3JlYXRlIHN0cmFwaS1hcHAgYmxvZyAtLXF1aWNrc3RhcnQgLS1uby1ydW4KY2QgL3Nydi9zdHJhcGkvYmxvZy8Kcm0gLXJmIGNvbmZpZy9kYXRhYmFzZS5qcwp3Z2V0IGh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9zYW5ncmFtcmF0aC9zdHJhcGkuaW8vbWFpbi9zY3JpcHRzL215c3FsL2RhdGFiYXNlLmpzIC1QIGNvbmZpZy8KbnBtIGluc3RhbGwgbXlzcWwKbnBtIHJ1biBidWlsZAp5YXJuIGdsb2JhbCBhZGQgcG0yCmVjaG8gJ2V4cG9ydCBQQVRIPSIkUEFUSDokKHlhcm4gZ2xvYmFsIGJpbikiJyA+PiB+Ly5iYXNocmMKc291cmNlIH4vLmJhc2hyYwpwbTIgaW5pdApybSBlY29zeXN0ZW0uY29uZmlnLmpzCndnZXQgaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3NhbmdyYW1yYXRoL3N0cmFwaS5pby9tYWluL3NjcmlwdHMvbXlzcWwvZWNvc3lzdGVtLmNvbmZpZy5qcwpwbTIgc3RhcnQgZWNvc3lzdGVtLmNvbmZpZy5qcwpwbTIgc3RhcnR1cCBzeXN0ZW1kCmV4aXQKZW52IFBBVEg9JFBBVEg6L3Vzci9iaW4gL2hvbWUvc3RyYXBpLy5jb25maWcveWFybi9nbG9iYWwvbm9kZV9tb2R1bGVzL3BtMi9iaW4vcG0yIHN0YXJ0dXAgc3lzdGVtZCAtdSBzdHJhcGkgLS1ocCAvaG9tZS9zdHJhcGkKc3Ugc3RyYXBpCnBtMiBzYXZl",
+    "customData": "",
     "linuxConfiguration": {
       "disablePasswordAuthentication": true,
       "ssh": {
@@ -207,8 +207,29 @@
           "computerName": "[variables('virtualMachineName')]",
           "adminUsername": "[variables('adminUsername')]",
           "adminPassword": "[variables('adminPasswordOrKey')]",
-		  "customData": "[variables('customData')]",
+	  "customData": "[variables('customData')]",
           "linuxConfiguration": "[if(equals(variables('authenticationType'), 'password'), null(), variables('linuxConfiguration'))]"
+        }
+      }
+    },
+    {
+      "type": "Microsoft.Compute/virtualMachines/extensions",
+      "name": "[concat(variables('virtualMachineName'),'/installcustomscript')]",
+      "apiVersion": "2020-12-01",
+      "location": "[variables('location')]",
+      "dependsOn": [
+        "[resourceId('Microsoft.Compute/virtualMachines/', variables('virtualMachineName'))]"
+      ],
+      "properties": {
+        "publisher": "Microsoft.Azure.Extensions",
+        "type": "CustomScript",
+        "typeHandlerVersion": "2.0",
+        "autoUpgradeMinorVersion": true,
+        "settings": {
+          "fileUris": [
+            "[uri(parameters('_artifactsLocation'), concat('scripts/install-on-vm.sh', parameters('_artifactsLocationSasToken')))]"
+          ],
+          "commandToExecute": "sh install-on-vm.sh"
         }
       }
     }
