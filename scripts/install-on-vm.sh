@@ -21,7 +21,25 @@ cd /srv/strapi/
 yarn create strapi-app blog --quickstart --no-run
 cd /srv/strapi/blog/
 rm -rf config/database.js
-wget https://raw.githubusercontent.com/sangramrath/strapi.io/main/scripts/mysql/database.js -P config/
+cat << EOF > config/database.js 
+// path: /srv/strapi/mystrapiapp/config/database.js
+module.exports = ({ env }) => ({
+  connection: {
+    client: 'mysql',
+    connection: {
+      host: env('DB_HOST'),
+      port: env.int('DB_PORT'),
+      database: env('DB_NAME'),
+      user: env('DB_USER'),
+      password: env('DB_PASS'),
+//      ssl: {
+//        rejectUnauthorized: env.bool('DATABASE_SSL_SELF', false), // For self-signed certificates
+//      },
+    },
+    debug: false,
+  },
+});
+EOF
 npm install mysql
 npm run build
 yarn global add pm2
