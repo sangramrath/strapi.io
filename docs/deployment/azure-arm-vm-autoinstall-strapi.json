@@ -217,7 +217,7 @@
     {
       "type": "Microsoft.Compute/virtualMachines/extensions",
       "name": "[concat(variables('virtualMachineName'),'/installcustomscript')]",
-      "apiVersion": "2020-12-01",
+      "apiVersion": "2021-11-01",
       "location": "[variables('location')]",
       "dependsOn": [
         "[resourceId('Microsoft.Compute/virtualMachines/', variables('virtualMachineName'))]"
