@@ -47,7 +47,27 @@ echo 'export PATH="$PATH:$(yarn global bin)"' >> ~/.bashrc
 source ~/.bashrc
 pm2 init
 rm ecosystem.config.js
-wget https://raw.githubusercontent.com/sangramrath/strapi.io/main/scripts/mysql/ecosystem.config.js
+cat << EOF > ecosystem.config.js
+module.exports = {
+  apps: [
+    {
+      name: 'strapi-dev',
+      cwd: '/srv/strapi/blog',
+      script: 'npm',
+      args: 'start',
+      env: {
+        NODE_ENV: 'development',
+        DB_HOST: 'localhost',
+        DB_PORT: '3306',
+        DB_NAME: 'strapi_dev',
+        DB_USER: 'strapi',
+        DB_PASS: 'mysecurepassword',
+        JWT_SECRET: 'aSecretKey',
+      },
+    },
+  ],
+};
+EOF
 pm2 start ecosystem.config.js
 pm2 startup systemd
 exit
