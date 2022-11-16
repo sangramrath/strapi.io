@@ -236,5 +236,14 @@
       }
     }
   ],
-  "outputs": {}
+  "outputs": {
+    "strapiURL": {
+      "type": "String",
+      "value": "[variables('dnsLabelPrefix')]"
+    },
+    "strapiPublicIP": {
+      "type": "String",
+      "value": "[reference(variables('publicIPAddressName')).properties.ipAddress]"
+    }
+  }
 }
